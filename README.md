@@ -20,7 +20,7 @@ In both procedures, the SUSY.csv margins to be considered as a test and training
 In AssignClassWithSusyWeighted.bat you can change C: \ SUSY.csv for any test file that has a structure analogous to SUSY obtaining the result with the classes assigned in the FileTextWithClassAsigned.txt file
 
 ### Cite this software as:
- ** Alfonso Blanco Garcia ** SUSY_WEIGHTED_V1
+ ** Alfonso Blanco García ** SUSY_WEIGHTED_V1
 
 More detailed description:
 
