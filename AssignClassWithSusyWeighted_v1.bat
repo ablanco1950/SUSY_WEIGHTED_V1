@@ -1,0 +1,1 @@
+java -jar AssignClassWithSusyWeighted_v1.jar c:\SusyWeighted78PercentHits.txt c:\SUSY.csv 0.0  4500000.0    4500000.0  5000000.0
