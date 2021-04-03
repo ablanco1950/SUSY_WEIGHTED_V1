@@ -42,7 +42,7 @@ References:
 https://archive.ics.uci.edu/ml/datasets/SUSY
 Artificial Intelligence A Modern Approach, Stuart Rosell, Peter Norvig (Third edition), page 749 and following referring to weighted training sets.
 
-Regarding precision:
+Regarding accuracy:
 
 1. The results offered on the website: http://physics.bu.edu/~pankajm/ML-Notebooks/HTML/NB5_CVII-logreg_SUSY.html
 
