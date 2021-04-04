@@ -30,6 +30,8 @@ To associate this index to each value of each field, the most suitable width of 
 
 The frequencies of each field are established in each index that represents a sampling width.
 
+Once the frequencies for each value of each field have been established, the probability of the record belonging to class 0 or 1 is calculated using the Naive Nayes method, given the independence between the values of each field, having verified that the results are better than those obtained with other methods
+
 In the preparation of Susy Weighted, the suggestion indicated in the textbook Artificial Intelligence A Modern Approach, Stuart Rosell, Peter Norvig (Third edition), page 749 and following, regarding the weighted training set, has been followed.
 
 With one caveat, and that is that it has been impossible to achieve an accuracy of 83% in a first step from which, with the subsequent production of valued susy files, an accuracy of 90% could be reached, this was achieved in a previous project that was unsuccessful.
