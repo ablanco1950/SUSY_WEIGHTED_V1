@@ -8,7 +8,7 @@ Once the .jar and .bat files have been downloaded to a directory and assuming th
 
 This file serves as input to the AssignClassWithSusyWeighted_v1.bat procedure, which uses C: SUSY.csv. as test file
 
-The procedure takes as parameters the margins of SUSY.csv that are considered a training file: from 0 to 4,500,000 according to the specifications on the SUSY.csv download page
+The procedures take as parameters the SUSY.csv margins that consider a training file: from 0 to 4,500,000, with a test file consisting of the last 500,000 SUSy.csv records. according to the specifications on the SUSY.csv download page.
 
 When executing it, a rate of 3,465,879 hits is obtained, which of the 4,500,000 records selected from SUSY.csv represents a precision of 77.02%.
 
