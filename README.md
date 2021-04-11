@@ -6,7 +6,7 @@ Functioning:
 
 Once the .jar and .bat files have been downloaded to a directory and assuming that SUSY.csv is in the c: directory, PrepareSusyWeighted_v1_0.bat is executed which creates a version of SUSY.csv valued with the name SusyWeighted78PercentHits.txt.
 
-This file serves as input to the AssignClassWithSusyWeighted_v1.bat procedure, which also appears as a test file c \: SUSY.csv.
+This file serves as input to the AssignClassWithSusyWeighted_v1.bat procedure, which uses C: SUSY.csv. as test file
 
 The procedure takes as parameters the margins of SUSY.csv that are considered a training file: from 0 to 4,500,000 according to the specifications on the SUSY.csv download page
 
