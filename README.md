@@ -10,14 +10,14 @@ This file serves as input to the AssignClassWithSusyWeighted_v1.bat procedure, w
 
 The procedures take as parameters the SUSY.csv margins that consider a training file: from 0 to 4,500,000, with a test file consisting of the last 500,000 SUSy.csv records. according to the specifications on the SUSY.csv download page.
 
-When executing it, a rate of 3,465,879 hits is obtained, which of the 4,500,000 records selected from SUSY.csv represents a precision of 77.02%.
+When executing it, a rate of 3,465,879 hits is obtained, which of the 4,500,000 records selected from SUSY.csv represents a precision of 77.02%, taht will be improve in the next step.
 
 Once the evaluated SUSY has been built, AssignClassWithSusyWeighted_v1.bat can be executed, which uses the one generated in the previous step as a training file and the 500,000 last SUSY.csv records as a test file, also according to the specifications on the download page. from SUSY.csv.
-Obtaining a hit rate of 390,494, 78.09%
+Obtaining a hit rate of 390.494 hits over the 500.000 records of test file, whot means 78.09%
 
-In both procedures, the SUSY.csv margins to be considered as a test and training file are parameterized.
+In both procedures, the SUSY.csv margins to be considered as a test and training file are parameterized. In advance, only AssignClassWithSusyWeighted_v1.bat wil be executed, changing the parameters at will.
 
-In AssignClassWithSusyWeighted.bat you can change C: \ SUSY.csv for any test file that has a structure analogous to SUSY obtaining the result with the classes assigned in the FileTextWithClassAsigned.txt file
+In AssignClassWithSusyWeighted.bat you can change C:\SUSY.csv for any test file that has a structure analogous to SUSY obtaining the result with the classes assigned in the FileTextWithClassAsigned.txt file
 
 ### Cite this software as:
  ** Alfonso Blanco García ** SUSY_WEIGHTED_V1
