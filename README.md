@@ -13,7 +13,7 @@ The procedures take as parameters the SUSY.csv margins that consider a training 
 When executing it, a rate of 3,465,879 hits is obtained, which of the 4,500,000 records selected from SUSY.csv represents a precision of 77.02%, taht will be improve in the next step.
 
 Once the evaluated SUSY has been built, AssignClassWithSusyWeighted_v1.bat can be executed, which uses the one generated in the previous step as a training file and the 500,000 last SUSY.csv records as a test file, also according to the specifications on the download page. from SUSY.csv.
-Obtaining a hit rate of 390.494 hits over the 500.000 records of test file, whot means 78.09%
+Obtaining a hit rate of 390.494 hits over the 500.000 records of test file, what means 78.09%
 
 In both procedures, the SUSY.csv margins to be considered as a test and training file are parameterized. In advance, only AssignClassWithSusyWeighted_v1.bat wil be executed, changing the parameters at will.
 
@@ -24,7 +24,7 @@ In AssignClassWithSusyWeighted.bat you can change C:\SUSY.csv for any test file 
 
 More detailed description:
 
-It begins with a statistical approach: each value of the first 8 significant fields (only these fields are considered as the rest are the result of complex calculations from the first 8 original fields) is associated with an index.
+It begins with a statistical approach: each value of the first 8 significant fields (following suggestion from the SUSY download page, only these fields are considered as the rest are the result of complex calculations from the first 8 original fields) is associated with an index.
 
 To associate this index to each value of each field, the most suitable width of the samples for each field has been previously estimated.
 
