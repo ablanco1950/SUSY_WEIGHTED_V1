@@ -42,6 +42,7 @@ It is pending to optimize in later versions
 References:
 
 https://archive.ics.uci.edu/ml/datasets/SUSY
+
 Artificial Intelligence A Modern Approach, Stuart Rosell, Peter Norvig (Third edition), page 749 and following referring to weighted training sets.
 
 Regarding accuracy:
