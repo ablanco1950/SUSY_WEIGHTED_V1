@@ -2,6 +2,11 @@
 # SUSY_WEIGHTED_V1: from the SUSY.csv test file (https://archive.ics.uci.edu/ml/datasets/SUSY), create a valued SUSY.csv that, together with a program included in the project, allows obtain success rates higher than 78%. This hit rate is low but is within the range of the hit rate of other published works cited in the references, with greater simplicity and availability of the code.
 Resources: Java 8
 
+On drive c: there should be the file SUSY.csv downloaded from https://archive.ics.uci.edu/ml/datasets/SUSY
+
+The programs need to record files on disk, which allows their use on computers with little memory. For this reason, it is necessary to create a folder in the C: directory with the name of SUSY_WEIGHTED_V1 and to which writing rights are assigned to the user who executes the program. Ultimately c: drives are write-protected.
+You can also change the directory and folder, but in that case you would have to change the references to C:\SUSY_WEIGHTED_V1 in the .bat files
+
 Functioning:
 
 Once the .jar and .bat files have been downloaded to a directory and assuming that SUSY.csv is in the C: directory, PrepareSusyWeighted_NaiveBayes_v1_0.bat is executed which creates a version of SUSY.csv valued with the name SusyWeighted78PercentHits.txt.
