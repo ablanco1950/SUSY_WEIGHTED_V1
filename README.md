@@ -13,8 +13,6 @@ Once the .jar and .bat files have been downloaded to a directory and assuming th
 Execute PrepareSusyWeighted_NaiveBayes_v1_0.bat
 Which creates  the file C:\SUSY_WEIGHTED_V1\SusyWeighted78PercentHits.txt, wich is a version of SUSY.csv valued.
 
-The procedures take as parameters the SUSY.csv margins that consider a training file: from 0 to 4,500,000, with a test file consisting of the last 500,000 SUSy.csv records. according to the specifications on the SUSY.csv download page.
-
 When executing it, a rate of 3,465,879 hits is obtained, which of the 4,500,000 records selected from SUSY.csv represents a precision of 77.02%, taht will be improve in the next step.
 
 Once the evaluated SUSY has been built, AssignClassWithSusyWeighted_v1.bat can be executed, which uses the one generated in the previous step as a training file and the 500,000 last SUSY.csv records as a test file, also according to the specifications on the download page. from SUSY.csv.
