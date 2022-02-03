@@ -9,7 +9,9 @@ You can also change the directory and folder, but in that case you would have to
 
 Functioning:
 
-Once the .jar and .bat files have been downloaded to a directory and assuming that SUSY.csv is in the C: directory, PrepareSusyWeighted_NaiveBayes_v1_0.bat is executed which creates a version of SUSY.csv valued with the name SusyWeighted78PercentHits.txt.
+Once the .jar and .bat files have been downloaded to a directory and assuming that SUSY.csv is in the C: directory:
+Execute PrepareSusyWeighted_NaiveBayes_v1_0.bat
+Which creates  the file C:\SUSY_WEIGHTED_V1\SusyWeighted78PercentHits.txt, wich is a version of SUSY.csv valued.
 
 This file serves as input to the AssignClassWithSusyWeighted_v1.bat procedure, which uses C: SUSY.csv. as test file
 
