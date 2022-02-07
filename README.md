@@ -22,6 +22,10 @@ In both procedures, the SUSY.csv margins to be considered as a test and training
 
 In AssignClassWithSusyWeighted.bat you can change C:\SUSY.csv for any test file that has a structure analogous to SUSY obtaining the result with the classes assigned in the FileTextWithClassAsigned.txt file
 
+For example: testing SUSY20.txt, attached, which is a file with 20 SUSY records, using the AssignClassWithSusyWeighted_v1_Test_SUSY20.bat procedure, which is also attached, an error rate of 16 successful records and 4 errors is obtained.
+
+Testing with the attached SUSY20Bad.txt file, which is the same SUSY20.txt to which the class of the first three records has been changed, and executing the AssignClassWithSusyWeighted_v1_Test_SUSY20bad.bat procedure. It is observed that the 3 errors introduced appear reflected, showing a rate of 13 correct answers and 7 errors. This tests the sensitivity of the model.
+
 ### Cite this software as:
  ** Alfonso Blanco García ** SUSY_WEIGHTED_V1
 
