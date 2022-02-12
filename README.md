@@ -31,6 +31,8 @@ Testing with the attached SUSY20Bad.txt file, which is the same SUSY20.txt to wh
 
 More detailed description:
 
+The main difference in this model comparing with others is that each field is weihgted separately. In other models weights are identical for all fields.
+
 It begins with a statistical approach: each value of the first 8 significant fields (following suggestion from the SUSY download page, only these fields are considered as the rest are the result of complex calculations from the first 8 original fields) is associated with an index.
 
 To associate this index to each value of each field, the most suitable width of the samples for each field has been previously estimated.
