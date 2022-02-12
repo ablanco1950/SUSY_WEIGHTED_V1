@@ -1,5 +1,11 @@
 # SUSY_WEIGHTED_V1
-# SUSY_WEIGHTED_V1: from the SUSY.csv test file (https://archive.ics.uci.edu/ml/datasets/SUSY), create a valued SUSY.csv that, together with a program included in the project, allows obtain success rates higher than 78%. This hit rate is low but is within the range of the hit rate of other published works cited in the references, with greater simplicity and availability of the code.
+# SUSY_WEIGHTED_V1: from the SUSY.csv test file (https://archive.ics.uci.edu/ml/datasets/SUSY), create a valued SUSY.csv that, together with a program included in the project, allows obtain success rates higher than 78%.
+
+The main difference in this model comparing with others is that each field is weihgted separately. In other models weights are identical for all fields.
+
+
+The hit rate is within the range of the hit rate of other published works cited in the references, with greater simplicity and availability of the code.
+
 Resources: Java 8
 
 On drive c: there should be the file SUSY.csv downloaded from https://archive.ics.uci.edu/ml/datasets/SUSY
